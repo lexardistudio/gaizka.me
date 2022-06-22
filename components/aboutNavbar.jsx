@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Navbar () {
+export default function AboutNavbar () {
     return (
 
         <>
@@ -22,7 +22,7 @@ export default function Navbar () {
                 <div className="items-center flex">
                     <h1 className="text-intro lg:text-lg sm:xs">
                         <a>
-                            <Link href='/about'> About&nbsp;&nbsp;</Link>
+                            <Link href='/'> Home&nbsp;&nbsp;</Link>
                         </a>
                     </h1>
                     <a>
